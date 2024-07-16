@@ -1,0 +1,125 @@
+.cen{
+	box-shadow: inset 0px 5px 0px #dec176;
+    margin: auto; 
+    width: 55%;   
+    padding: 1px; 
+    font-family: sans-serif;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+	
+	
+ }
+
+h1 {
+color: #ffffff;
+padding: 50px;
+text-align: center;
+font-size: 50px;
+}
+h3 {
+color: #ffffff;
+text-align: center;
+font-size: 24px;
+}
+
+header {
+text-align: center;
+}
+a {
+color: #fff;
+text-decoration: none;
+}
+#main{
+color: rgb(255, 255, 255);
+text-align: center;
+font-size: 75px;
+background-color: rgba(255, 255, 255, 0.216);
+font-family: sans-serif;
+font-weight: bold;
+}
+.map{
+text-align: center;
+
+}
+h4{
+	
+	color: #ffffff;
+	font-size: 40px;
+	text-align: center;
+	font-family: sans-serif;
+	padding: 20px; 
+	border-radius: 50px;
+	background-color: rgba(250, 239, 239, 0.47);
+	height:fit-content;
+	
+	
+	
+}
+
+h2{
+	margin: auto; 
+    width: 55%;   
+    padding: 20px; 
+    font-family: sans-serif;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+  }
+
+  .row {
+	display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+	padding: 0 100px;
+	gap: 2rem;
+
+  }
+
+ul{
+	border-radius: 25px;
+	height: fit-content;
+	display: inline-flex;
+	background-color: rgba(123, 119, 119, 0.526);
+	-webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);  
+	align-items: center;
+	padding: 0 10px;
+	margin: 50px 0 0 0;
+	li {
+		list-style: none;
+		font-family: sans-serif;
+		font-weight: bold;
+		padding: 18px 25px;
+		margin: 0 8px;
+		position: relative;
+		cursor: pointer;
+		white-space: nowrap;
+		&::before {
+			content: " ";
+			position: absolute;
+			top: 0;
+			left:0;
+			height:100%;
+			width: 100%;
+			z-index:-1;
+			transition: .2s;
+			border-radius: 25px;
+		}
+			&:hover {
+				&::before {
+					background: linear-gradient(to bottom, #d0cccc7f, #ffffffc8);
+						box-shadow: 0px 3px 20px 0px rgba(187, 185, 185, 0.75);
+						transform: scale(1.2);
+				}
+				color: rgba(219, 214, 214, 0.723);
+		}
+	}
+}
